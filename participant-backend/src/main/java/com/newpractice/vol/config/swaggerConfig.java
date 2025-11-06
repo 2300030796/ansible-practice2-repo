@@ -14,7 +14,7 @@ public class SwaggerConfig {
     OpenAPI taskOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Task Management API")
+                        .title("Participant API..")
                         .description("Spring Boot REST API for managing tasks")
                         .version("1.0.0")
                         .contact(new Contact()
