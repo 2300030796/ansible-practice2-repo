@@ -1,4 +1,4 @@
-package com.newpractice.vol.config;
+package com.klef.dev.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -14,7 +14,7 @@ public class SwaggerConfig {
     OpenAPI taskOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Participant API..")
+                        .title("Task Management API")
                         .description("Spring Boot REST API for managing tasks")
                         .version("1.0.0")
                         .contact(new Contact()
